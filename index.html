@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hexys</title>
+    <link href="https://superdupercybertechno.github.io/sdcss/sdcss.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+
+  <body>
+    <col-row>
+      <col-x>
+        <div>
+          <h1>
+            Hexys
+            <sup>0.9.1</sup>
+          </h1>
+          <p>A generic role playing game engine under construction.</p>
+        </div>
+      </col-x>
+    </col-row>
+
+    <col-row>
+      <col-x>
+        <details open>
+          <summary>Introduction</summary>
+          <p>Hexys is a streamlined, theme-agnostic, d6-based, roll high, tabletop role-playing game system. In only consists of rules in its rawest form, for specific information on monsters, items, classes etc. refer to a module.</p>
+
+          <br />
+
+          <h3>A note on levels</h3>
+          <p>Levels does not exist in Hexys. As a result, neither does levelling up. Hexys uses the concept of Favor in its place, see this.</p>
+
+          <br />
+
+          <h3>Requirements</h3>
+          <p>10d6 (in matching colors, the Talent Dice) as well as 1d6 in a unique color (this is your Critical Die). Pen and paper. That's it.</p>
+
+          <br />
+
+          <h3>Modules</h3>
+          <p>Hexys can only be played by using a module. - These provide everything but the basic rules (contained herein).</p>
+
+          <br />
+
+          <table>
+            <tr>
+              <td>Name</td>
+              <td>Notes</td>
+              <td>Link</td>
+            </tr>
+            <tr>
+              <td>Fixers</td>
+              <td>Dystopian sci-fi janitors</td>
+              <td>
+                <a href="./fixers">/fixers</a>
+              </td>
+            </tr>
+          </table>
+
+          <br />
+
+          <h3>Sheets</h3>
+          <p>
+            <a href="./science_fiction_napper_character_sheet.pdf">Science fiction</a>
+          </p>
+        </details>
+
+        <details open>
+          <summary>Dice</summary>
+          <p>Hexys uses six-sided dice, exclusively. 10 of matching colors called the Talent Dice, as well as one uniquely identifiable one: The Critical Die. A roll is expressed as a number between 1 and 10, this number representing the amount of Talent Dice to roll. The number can never be less than 1 or more than 10, regardless of modifiers.</p>
+        </details>
+
+        <details open>
+          <summary>Checks</summary>
+          <p>When a player character want to achieve any non-trivial action, the game master determines the Talent used for the action and the player gathers the number of Talent Dice that corresponds with the selected Talent's level. The game master can add, - or remove Talent Dice at their discretion if the situation is notably easy or hard, respectively. Remember to add the Critical Die to the pool.</p>
+
+          <br />
+
+          <p>The resulting dice pool can never have less than 1 die (2 if you include the Critical Die) or more than 10 dice (11 if you include the Critical Die).</p>
+
+          <br />
+
+          <p><strong>If - among the Talent Dice - a six is rolled, the attempt was a success.</strong> Otherwise (if no die shows a six), the attempt was a failure. Multiple sixes make no difference and counts simply as a success as well. If the Critical Die shows a six, you have a Critical on your hands. Note that the Critical Die has no effect on whether or not the Check was a success, it only determines if the outcome is Critical.</p>
+
+          <br />
+
+          <table>
+            <tr>
+              <td>Talent Dice</td>
+              <td>Success</td>
+              <td>Failure</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>16.7% (2.8%)</td>
+              <td>83.3% (13.8%)</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>30.6% (5.0%)</td>
+              <td>69.4% (11.6%)</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>42.2% (7.0%)</td>
+              <td>57.8% (9.6%)</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>51.8% (8.6%)</td>
+              <td>48.2% (8.0%)</td>
+            </tr>
+            <tr>
+              <td>5</td>
+              <td>59.8% (10.0%)</td>
+              <td>40.2% (6.6%)</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>66.6% (11.0%)</td>
+              <td>33.4% (5.6%)</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>72.0% (12.0%)</td>
+              <td>28.0% (4.6%)</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>76.8% (12.8%)</td>
+              <td>23.2% (3.8%)</td>
+            </tr>
+            <tr>
+              <td>9</td>
+              <td>80.6% (13.4%)</td>
+              <td>19.4% (3.2%)</td>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>83.8% (14.0%)</td>
+              <td>16.2% (2.6%)</td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <small>The parenthesized number denotes the critical probability</small>
+              </td>
+            </tr>
+          </table>
+
+          <br />
+
+          <h3>Criticals</h3>
+          <p><i>Critical failures</i>, - and <i>successes</i> represent actions with exceptional outcomes. <strong>Criticals happen every time the Critical Die shows a 6</strong>. - If this happens, refer to the Talent Dice to determine whether or not the attempt was a critical failure or a critical success.</p>
+
+          <p>Items provide effects for all outcomes whereas more situational outcomes must be decided by the game master.</p>
+
+          <br />
+
+          <p>A critical failure usually awards 1 Favor in addition to the (very) bad stuff.</p>
+        </details>
+      </col-x>
+
+      <col-x>
+        <details open>
+          <summary>Talents</summary>
+          <p>Talents describe the expertise of player characters and range from 1 to 10. Low values being bad, high values being good. The standard syntax for Talents are a noun directly followed by an identifier of the action or object used. IE: "Break door", "Shoot laser gun", "Inject stim" etc.</p>
+
+          <p>When players encounter an action that cannot be represented by any existing Talent, just create a new one:</p>
+
+          <br />
+
+          <p><strong>Devise a sufficiently apt name, then settle the initial Talent level by rolling 1d6.</strong></p>
+
+          <br />
+
+          <p>Talents does not need to be used right after they have been created. For example, a player may check to see if they are good at kicking in doors before they decide to do it.</p>
+
+          <br />
+
+          <p>Sometimes, characters are unusually good at certain things. If a player can sufficiently explain why their character has an affinity for some specific talent (usually as a result of their past), they may roll 1d6 twice, and use the highest result as their initial Talent level.</p>
+
+          <br />
+
+          <h3>Unique Talents</h3>
+          <p>Some specific Talents can be unique to characters, these usually come with character creation and are provided by modules. As the name suggests, Unique Talents are only usable by characters who possess them and provide more fantastical ways to interact with the game world.</p>
+
+          <p>Beside being possessed by only a few characters, Unique Talents are governed by the same rules that apply to general Talents (they are resolved by Checks, they can be upgraded using Favor etc.)</p>
+        </details>
+
+        <details open>
+          <summary>Favor</summary>
+          <p>Favor is a multi-use meta currency that the players can use to increase their chances of survival. It is an amalgamation of <i>Experience Points</i>, <i>Luck</i> and similar subsystems in other rulesets.</p>
+
+          <br />
+
+          <p>All player characters start with d6 Favor. Additional Favor can be accrued as defined by the scenario, as an addition to regular loot, as a consolation prize for rolling critical failures or as an award for extraordinarily entertaining behaviour.</p>
+
+          <br />
+
+          <h3>Luck measure</h3>
+          <p>If anything unfortunate happens that is not explicitly tied to a specific character, the character(s) with the lowest Favor suffer the consequences and is awarded 1 Favor. If lowest Favor is tied, roll a die. This use extends to non-player characters which are created with a Favor value.</p>
+
+          <br />
+
+          <h3>Upgrading Talents</h3>
+          <p>Expending Favor allows a player to increase a character Talent level where the expense equals the target Talent level: To upgrade a talent from level 4 to 5 will cost a character 5 Favor.</p>
+          <br />
+
+          <h3>Boosting rolls</h3>
+          <p>1 Favor expended will add 1 die to their Talent Dice pool when resolving a single Check. Expended Favor must be resolved prior to rolling. Multiple dice can be added this way.</p>
+        </details>
+      </col-x>
+      <col-x>
+        <details open>
+          <summary>Creation</summary>
+          <p>Character creation is simple and only requires 4 steps.</p>
+
+          <br />
+
+          <table>
+            <tr>
+              <td>Step</td>
+              <td>Details</td>
+            </tr>
+            <tr>
+              <td>Name</td>
+              <td>Pick a name. Or roll one randomly.</td>
+            </tr>
+            <tr>
+              <td>Health</td>
+              <td>Roll 1d6+4. This is your starting (and max) Health.</td>
+            </tr>
+            <tr>
+              <td>Favor</td>
+              <td>Roll 1d6. This is your starting Favor.</td>
+            </tr>
+            <tr>
+              <td>Shop</td>
+              <td>Receive 100 credits. Optionally, buy equipment.</td>
+            </tr>
+          </table>
+        </details>
+
+        <details open>
+          <summary>Items</summary>
+          <p>Items fall into one of 3 overarching classes: <i>Active</i>, <i>passive</i> and <i>static</i>.</p>
+          <br />
+
+          <h3>Active items</h3>
+          <p>Active items are utilitarian tools that require specific Talents and has to be wielded. These include weapons, vehicles etc.</p>
+          <br />
+          <h3>Passive items</h3>
+          <p>Passive items are items that can provide modifiers to specific Talents. These include body armor, drugs, parasites etc. They always come with a specific value that dictates their modifier.</p>
+          <p>As an example, a player may stumble upon the item <i>Body Armor 2</i>. When the player is using the Talent <i>Dive for Cover</i> they add the modifier +2 to their roll. Conversely, the game master may impose a -2 penalty to any action that requires freedom of movement.</p>
+          <p>On the other end of the spectrum, the player character may have a <i>Speed parasite 1</i> lodged to their head. This would add a -1 modifier to any Talent check that would be affected by being fatigued (pretty much everything).</p>
+          <br />
+          <h3>Static items</h3>
+          <p>Static items provide nothing to the outcome of actions and usually include items of monetary value, mission-specific uses like keys or documents or simply random, potentially useless loot.</p>
+
+          <br />
+
+          <h3>Size</h3>
+          <p>Items can have 1 of 3 different sizes: <i>Normal</i>, <i>tiny</i> or <i>huge</i>. Items are assumed to be of <i>normal</i> size unless stated otherwise.</p>
+          <p>See <i>Inventory</i> for more information.</p>
+        </details>
+        <details open>
+          <summary>Reactions</summary>
+          <p>When the game master is uncertain how a non-player character is going to react, they can make a reaction roll using 1d6:</p>
+          <br />
+
+          <table>
+            <tr>
+              <td>d6</td>
+              <td>Reaction</td>
+            </tr>
+            <tr>
+              <td class="nowrap">1</td>
+              <td>Extreme animosity, will attack</td>
+            </tr>
+            <tr>
+              <td class="nowrap">2</td>
+              <td>Angered, very suspicious</td>
+            </tr>
+            <tr>
+              <td class="nowrap">3</td>
+              <td>Dismissive, prefer to be left alone</td>
+            </tr>
+            <tr>
+              <td class="nowrap">4</td>
+              <td>Interested, wants more information</td>
+            </tr>
+            <tr>
+              <td class="nowrap">5</td>
+              <td>Friendly, will help without much incentive</td>
+            </tr>
+            <tr>
+              <td class="nowrap">6</td>
+              <td>Elated, will do a lot and ask few questions</td>
+            </tr>
+          </table>
+          <br />
+
+          <p>The game master can apply modifiers to the reaction roll if there are circumstances that could have an impact on it.</p>
+        </details>
+        <details open>
+          <summary>Inventory</summary>
+          <p>
+            Player characters can carry <strong>10 items</strong>. Of these items, characters can carry <strong>1 <i>huge</i> item</strong>. Player characters can carry <strong>infinite <i>tiny</i> items</strong>.
+          </p>
+          <p><i>Huge</i> and <i>tiny</i> items must be explicitly described as such, except hard currency which count as <i>tiny</i> items.</p>
+        </details>
+      </col-x>
+    </col-row>
+  </body>
+</html>

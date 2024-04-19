@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Recursive:wght,CASL,CRSV,MONO@300..1000,0..1,0..1,0..1&display=swap");
+
+* {
+  font-family: Recursive;
+  font-variation-settings:
+    "CASL" 0.4,
+    "MONO" 0.3;
+  font-weight: 300;
+}

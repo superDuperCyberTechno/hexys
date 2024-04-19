@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Era</title>
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+  <link href="https://superdupercybertechno.github.io/sdcss/sdcss.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../style.css" rel="stylesheet" type="text/css" media="all">
+</head>
+
+<body>
+  <div class="row">
+    <div class="col">
+      <h1>
+        Era
+      </h1>
+      <p>
+        A gritty, medieval, fantasy expansion for <a href="..">Napper</a>
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <details open>
+        <summary class="h2">
+          Melee Weapons
+        </summary>
+        <table>
+          <tr>
+            <td>Roll</td>
+            <td>Weapon</td>
+            <td>Notes</td>
+            <td>Damage (d6)</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Broadsword</td>
+            <td>Piercing/slashing damage.</td>
+            <td>
+              1-3: d6
+              <br>
+              4-5: d8
+              <br>
+              6: d10
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Longsword</td>
+            <td>Piercing/slashing damage. Two-handed.</td>
+            <td>
+              1-3: d8
+              <br>
+              4-5: d10
+              <br>
+              6: d12
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Warhammer</td>
+            <td>Crushing/piercing damage.</td>
+            <td>
+              1-3: d6
+              <br>
+              4-5: d8
+              <br>
+              6: d10
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Polehammer</td>
+            <td>Crushing/piercing damage. Two-handed.</td>
+            <td>
+              1-3: d8
+              <br>
+              4-5: d10
+              <br>
+              6: d12
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Battleaxe</td>
+            <td>Slashing/crushing damage.</td>
+            <td>
+              1-3: d6
+              <br>
+              4-5: d8
+              <br>
+              6: d10
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Poleaxe</td>
+            <td>Slashing/crushing damage. Two-handed.</td>
+            <td>
+              1-3: d8
+              <br>
+              4-5: d10
+              <br>
+              6: d12
+            </td>
+          </tr>
+        </table>
+      </details>
+      <details open>
+        <summary class="h2">
+          Ranged weapons
+        </summary>
+        <table>
+          <tr>
+            <td>Roll</td>
+            <td>Weapon</td>
+            <td>Notes</td>
+            <td>Damage (d6)</td>
+          </tr>
+          <tr>
+            <td>1-2</td>
+            <td>Bow</td>
+            <td>Piercing damage. Two-handed.</td>
+            <td>
+              <table>
+                <tr>
+                  <td>1-3</td>
+                  <td>d4</td>
+                </tr>
+                <tr>
+                  <td>4-5</td>
+                  <td>d6</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>d8</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>3-4</td>
+            <td>Crossbow</td>
+            <td>Piercing damage. Two-handed. Takes 1 turn to reload.</td>
+            <td>
+              <table>
+                <tr>
+                  <td>1-3</td>
+                  <td>d6</td>
+                </tr>
+                <tr>
+                  <td>4-5</td>
+                  <td>d8</td>
+                </tr>
+                <tr>
+                  <td>6</td>
+                  <td>d10</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Throwing knives</td>
+            <td>Piercing damage.</td>
+            <td>
+              <table>
+                <tr>
+                  <td>1-3</td>
+                  <td>d4</td>
+                </tr>
+                <tr>
+                  <td>4-5</td>
+                  <td>d6</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Sling</td>
+            <td>Two-handed. Unlimited ammunition.</td>
+            <td>d4</td>
+          </tr>
+        </table>
+      </details>
+      <details open>
+        <summary class="h2">
+          Critical damage
+        </summary>
+        By default (if result below is not applicable), critical damage does double damage.
+        <table>
+          <tr>
+            <td>Type</td>
+            <td>Effect</td>
+          </tr>
+          <tr>
+            <td>Crushing</td>
+            <td>
+              1-2: Reduce armor by 1.
+              <br>
+              3-4: Knocked out for d4 rounds.
+            </td>
+          </tr>
+          <tr>
+            <td>Slashing</td>
+            <td>
+              1-3: Bleed for 1 damage each round. Stacks. Stopped with first aid.
+              <br>
+              4: Random limb is severed.
+            </td>
+          </tr>
+          <tr>
+            <td>Piercing</td>
+            <td>
+              1-4: Bypass armor
+            </td>
+          </tr>
+        </table>
+      </details>
+    </div>
+    <div class="col">
+      <details open>
+        <summary class="h2">
+          Scrolls
+        </summary>
+        <table>
+          <tr>
+            <td>Roll</td>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Critical success</td>
+            <td>Critical failure</td>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td>Telekinesis</td>
+            <td>
+              Control the momentum of matter, apply or absorb kinetic energy.
+              <br>
+              Examples: Fixate objects, throw objects, fly etc.
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Gateway</td>
+            <td>
+              Make a portal between 2 points the caster can see. Things entering one portal will come out of the other.
+              This includes light.
+              Can be cast twice to make a portal between 2 points that are not visible at the same time. Will last for 1
+              homogenous item or for as long as the find
+              <br>
+              Examples: Surveillance, shoot around corner, traps, break into prison etc.
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Lightbend</td>
+            <td>
+              Control the direction of light.
+              <br>
+              Examples: Make objects invisible, concentrate light sources on a single point, generate darkness, look
+              around corners etc.
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Command</td>
+            <td>
+              Order any autonomous being to do you bidding.
+              <br>
+              Examples:
+            </td>
+            <td>
+              Being now acts as if they rolled 20 on the reaction roll.
+            </td>
+            <td>
+              Being now acts as if they rolled 1 on the reaction roll.
+            </td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td></td>
+            <td>
+              <br>
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Timephase</td>
+            <td>
+              Move matter through time.
+              <br>
+              Examples: Hide item from present, time travel,
+            </td>
+            <td>
+            </td>
+            <td>
+            </td>
+          </tr>
+        </table>
+      </details>
+    </div>
+  </div>
+</body>
+
+</html>
